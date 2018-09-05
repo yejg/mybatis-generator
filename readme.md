@@ -12,6 +12,7 @@
 - 增加OverIsMergeablePlugin插件
 
 <hr />
+
 ## 背景
 项目中使用Mybatis做持久层框架，但由于开发成员水平不一，写dao的时候，各有各的偏好，有时候还会写出带sql注入漏洞的代码。
 
