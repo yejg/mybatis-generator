@@ -1,1 +1,12 @@
+*.class
+
+
+*.iml
+.idea/
+
+.classpath
+.project
+/.settings/
+
 /target/
+/src/test/resources/MyGenConfig.xml
