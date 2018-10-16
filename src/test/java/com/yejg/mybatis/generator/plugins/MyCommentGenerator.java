@@ -59,6 +59,10 @@ public class MyCommentGenerator implements CommentGenerator {
 		if (suppressAllComments) {
 			return;
 		}
+		String remarks = introspectedColumn.getRemarks();
+		if (remarks == null || remarks.length() == 0) {
+			return;
+		}
 		StringBuilder sb = new StringBuilder();
 		sb.append("/** ").append(introspectedColumn.getRemarks().replace("\n", " ")).append(" */");
 		field.addJavaDocLine(sb.toString());

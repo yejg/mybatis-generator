@@ -10,6 +10,7 @@
 - 增加Oracle和Mysql数据库分页代码生成插件
 - 增加 字段、Model 代码注释插件
 - 增加OverIsMergeablePlugin插件
+- 增加model序列化插件，自带的序列化插件只会序列化model，Example不会序列化
 
 <hr />
 
