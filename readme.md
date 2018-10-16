@@ -12,6 +12,9 @@
 - 增加OverIsMergeablePlugin插件
 - 增加model序列化插件，自带的序列化插件只会序列化model，Example不会序列化
 
+
+详见下文，或者 阅读博文 ：https://yejg.top/2018/09/05/mybatis-generator/
+
 <hr />
 
 ## 背景
